@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    padding: 5px;
+}
+
+.header-logo {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+#btnClear {
+    width: 100%;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+.butonBack{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btnBack{
+    cursor: pointer;
+    margin: 0px 0.5rem;
+    padding: 0.5rem;
+    background-color: red;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.btnBack:hover{
+    background-color: #c90303;
+    border: 1px solid red;
+}
+
+
